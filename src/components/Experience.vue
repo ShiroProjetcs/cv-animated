@@ -1,18 +1,11 @@
 <script setup>
+import { computed } from 'vue'
+
+const currentYear = new Date().getFullYear()
+
 const experiences = [
   {
-    date: '2018 – Actualidad',
-    title: 'Técnico Informático y Equipos Multifunción',
-    company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
-    bullets: [
-      'Responsable del despliegue técnico, configuración y soporte de equipos profesionales.',
-      'Diagnóstico de hardware/software y mantenimiento preventivo con altos estándares.',
-      'Soporte remoto y presencial, garantizando la continuidad de negocio en empresas.',
-      'Gestión logística y transporte de equipamiento técnico crítico.'
-    ]
-  },
-  {
-    date: '2020 – Actualidad',
+    date: `2020 – Actualidad (Hoy ${currentYear})`,
     title: 'Desarrollador Web y Estratega Digital',
     company: 'Freelance & Colaboraciones',
     bullets: [
@@ -20,6 +13,17 @@ const experiences = [
       'E-commerce Avanzado: Diseño, despliegue y gestión de tiendas online usando Shopify y WordPress (WooCommerce) para marcas de moda y servicios.',
       'Integración IA: Uso de LLMs (ChatGPT, Claude) y herramientas generativas para automatización de workflows y creación de contenido dinámico.',
       'Colaborador zbombilla.com: Apoyo en desarrollo digital y ejecución de proyectos de negocio online.'
+    ]
+  },
+  {
+    date: `2018 – Actualidad (Hoy ${currentYear})`,
+    title: 'Informático y Técnico de Impresoras',
+    company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
+    bullets: [
+      'Responsable del soporte IT integral y mantenimiento técnico de equipos multifunción de alta producción.',
+      'Especialista en marcas líderes: Olivetti, Develop, Konica Minolta, Kyocera, HP, Ricoh, entre otras.',
+      'Soporte remoto y presencial, asegurando la operatividad crítica de sistemas en entornos empresariales.',
+      'Diagnóstico avanzado de hardware/software y gestión de infraestructura tecnológica.'
     ]
   },
   {

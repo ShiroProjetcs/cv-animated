@@ -26,7 +26,7 @@
         </p>
 
         <!-- Chips -->
-        <div class="flex flex-wrapjustify-center lg:justify-start gap-4">
+        <div class="flex flex-wrap justify-center lg:justify-start gap-3">
           <a href="mailto:srshipropro@gmail.com" class="chip">
             <i class="ph ph-envelope-simple text-xl text-[#e61919]"></i> srshipropro@gmail.com
           </a>
@@ -36,13 +36,13 @@
           <span class="chip">
             <i class="ph ph-map-pin text-xl text-[#e61919]"></i> Alcoy, España
           </span>
-          <a href="https://www.linkedin.com/in/luisalbertojm/" target="_blank" class="chip hover-red">
+          <a href="https://www.linkedin.com/in/luisalbertojm/" target="_blank" class="chip">
             <i class="ph ph-linkedin-logo text-xl text-[#e61919]"></i> LinkedIn
           </a>
-          <a href="https://github.com/ShiroProjects" target="_blank" class="chip hover-red">
+          <a href="https://github.com/ShiroProjects" target="_blank" class="chip">
             <i class="ph ph-github-logo text-xl text-[#e61919]"></i> GitHub
           </a>
-          <a href="#contacto" class="chip-primary shadow-red-glow">
+          <a href="#contacto" class="chip-primary">
             <i class="ph ph-paper-plane-tilt text-xl text-white"></i> Contactar
           </a>
         </div>
@@ -84,19 +84,6 @@
   transform: rotateY(-3deg) rotateX(1deg);
 }
 
-.chip {
-  @apply inline-flex items-center gap-2 px-5 py-2.5 bg-white/5 border border-white/10 rounded-full text-sm font-medium transition-all duration-300;
-}
-.chip:hover {
-  @apply bg-red-500/10 border-[#e61919] -translate-y-1 shadow-[0_10px_20px_rgba(230,25,25,0.15)];
-}
-
-.chip-primary {
-  @apply inline-flex items-center gap-2 px-6 py-2.5 bg-gradient-to-br from-[#e61919] to-[#a30000] rounded-full text-sm font-bold text-white transition-all duration-300;
-}
-.chip-primary:hover {
-  @apply shadow-[0_10px_25px_rgba(230,25,25,0.4)] -translate-y-1;
-}
 
 .floating-badge {
   @apply bg-black/85 backdrop-blur-xl border border-red-500/30 px-4 py-3 rounded-xl font-bold text-xs flex items-center gap-2 shadow-[0_10px_30px_rgba(0,0,0,0.6)] uppercase tracking-wide text-white;

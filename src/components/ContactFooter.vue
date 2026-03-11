@@ -17,7 +17,7 @@
           <a href="tel:+34639401682" class="btn-secondary">
             <i class="ph ph-phone text-xl text-[#e61919]"></i> Llamar Ahora
           </a>
-          <a href="/CV_LuisAlbertoJimenez.pdf" download class="btn-secondary border-red-500/30">
+          <a href="/CV_LuisAlbertoJimenez.pdf" download class="btn-secondary">
             <i class="ph ph-download-simple text-xl text-[#e61919]"></i> Descargar CV (PDF)
           </a>
         </div>
@@ -43,18 +43,3 @@
   </footer>
 </template>
 
-<style scoped>
-.btn-primary {
-  @apply inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-br from-[#e61919] to-[#a30000] rounded-full font-bold text-white transition-all duration-300 shadow-[0_5px_15px_rgba(230,25,25,0.3)];
-}
-.btn-primary:hover {
-  @apply shadow-[0_15px_30px_rgba(230,25,25,0.5)] -translate-y-1 scale-105;
-}
-
-.btn-secondary {
-  @apply inline-flex items-center gap-2 px-8 py-4 bg-white/5 border border-white/10 rounded-full font-bold text-white transition-all duration-300;
-}
-.btn-secondary:hover {
-  @apply bg-red-500/10 border-[#e61919] -translate-y-1 scale-105 shadow-[0_10px_20px_rgba(230,25,25,0.15)];
-}
-</style>

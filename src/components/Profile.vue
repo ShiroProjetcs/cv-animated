@@ -1,4 +1,16 @@
 <script setup>
+import { computed } from 'vue'
+
+const age = computed(() => {
+  const birthDate = new Date('1998-04-08')
+  const today = new Date()
+  let age = today.getFullYear() - birthDate.getFullYear()
+  const m = today.getMonth() - birthDate.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--
+  }
+  return age
+})
 </script>
 
 <template>
@@ -15,10 +27,8 @@
       </h3>
       
       <p class="text-[1.35rem] leading-relaxed text-[#94949b] font-light relative z-10">
-        Técnico polivalente con sólida experiencia en soporte IT, mantenimiento de equipos profesionales y
-        desarrollo de proyectos digitales. Combino una alta capacidad de resolución de problemas técnicos en
-        entornos corporativos con la integración de herramientas de Inteligencia Artificial avanzadas para
-        optimizar procesos.
+        Técnico IT de <span class="text-white font-bold">{{ age }} años</span> con sólida experiencia en soporte avanzado, mantenimiento de equipos profesionales y desarrollo de proyectos digitales.
+        Combino una alta capacidad de resolución de problemas técnicos en entornos corporativos con la integración de herramientas de Inteligencia Artificial para optimizar procesos.
       </p>
     </div>
   </section>
