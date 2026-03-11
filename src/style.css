@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fondo oscuro suavizado */
+    --bg-color: #0d0d0f;
+
+    /* Superficies de cristal translucido tintadas en rojo */
+    --surface-color: rgba(255, 255, 255, 0.03);
+    --surface-border: rgba(255, 255, 255, 0.08);
+
+    /* Textos nítidos */
+    --text-primary: #ffffff;
+    --text-secondary: #94949b;
+
+    /* Tema Rojo Intenso */
+    --accent-color: #e61919;
+    --accent-color-hover: #cc0000;
+
+    /* Gradiente Rojo Pura Sangre / Carmesí */
+    --accent-gradient: linear-gradient(135deg, #e61919 0%, #a30000 100%);
+  }
+
+  body {
+    @apply bg-[#0d0d0f] text-white;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Cursor Glow */
+.cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 26, 26, 0.12) 0%, rgba(0, 0, 0, 0) 60%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+  transition: width 0.3s, height 0.3s;
+}
+
+/* Glass Card Reusable */
+.glass-card {
+  background: var(--surface-color);
+  border: 1px solid var(--surface-border);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.glass-card.hover-red:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(255, 0, 0, 0.08);
+  border-color: rgba(255, 26, 26, 0.4);
+}
