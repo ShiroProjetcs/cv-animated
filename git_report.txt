@@ -1,0 +1,39 @@
+--- GIT LOG --- 
+4a260f8 Update vercel.json
+b2bcb04 Update package.json
+7406e32 v1
+52868a3 Create .gitignore
+daf735e CV
+b1b8556 CV
+--- GIT REMOTE --- 
+origin	https://github.com/ShiroProjetcs/cv-animated.git (fetch)
+origin	https://github.com/ShiroProjetcs/cv-animated.git (push)
+--- GIT BRANCH --- 
+* main
+--- DIRECTORY LISTING --- 
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 1A8C-1DAF
+
+ Directorio de C:\Users\SrShiroPro\Desktop\GITHUB\cv-animated
+
+11/03/2026  21:13    <DIR>          .
+11/03/2026  21:13    <DIR>          ..
+11/03/2026  21:02               253 .gitignore
+11/03/2026  21:07                45 .npmrc
+11/03/2026  21:13               306 debug_git.bat
+11/03/2026  20:50    <DIR>          dist
+11/03/2026  21:13               336 git_report.txt
+11/03/2026  18:29               485 index.html
+11/03/2026  18:24    <DIR>          legacy_html
+11/03/2026  18:30    <DIR>          node_modules
+11/03/2026  21:06            76.473 package-lock.json
+11/03/2026  21:10               465 package.json
+11/03/2026  18:29                80 postcss.config.js
+11/03/2026  18:37    <DIR>          public
+11/03/2026  20:37                19 README.md
+11/03/2026  18:30    <DIR>          src
+11/03/2026  18:29               186 tailwind.config.js
+11/03/2026  21:11                26 vercel.json
+11/03/2026  18:29               157 vite.config.js
+              12 archivos         78.831 bytes
+               7 dirs  29.040.279.552 bytes libres
