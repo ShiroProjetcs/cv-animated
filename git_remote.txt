@@ -1,0 +1,2 @@
+﻿origin	https://github.com/ShiroProjetcs/cv-animated.git (fetch)
+origin	https://github.com/ShiroProjetcs/cv-animated.git (push)
