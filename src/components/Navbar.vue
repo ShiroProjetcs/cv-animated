@@ -23,8 +23,11 @@ onMounted(() => {
         <li><a href="#perfil" class="nav-link">Perfil</a></li>
         <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
         <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
-        <li><a href="#idiomas" class="nav-link">Idiomas</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
       </ul>
+      <a href="mailto:srshipropro@gmail.com" class="px-5 py-2 bg-white/5 border border-white/10 rounded-full text-xs font-bold hover:bg-red-500/10 hover:border-[#e61919] transition-all duration-300">
+        HOLA@LUIS.A
+      </a>
     </div>
   </nav>
 </template>
