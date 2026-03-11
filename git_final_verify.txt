@@ -1,0 +1,1 @@
+﻿982ba72 fix: explicit vercel config and node 20 pinning
