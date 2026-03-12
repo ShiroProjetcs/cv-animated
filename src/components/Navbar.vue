@@ -53,55 +53,66 @@ onMounted(() => {
     </div> <!-- Cierre del div secundario -->
   </div> <!-- Cierre del div principal de línea 27 que faltaba -->
 
-    <!-- Mobile Menu Overlay - Minimalist Centered Design -->
-    <transition 
-      enter-active-class="transition-all duration-500 ease-out"
-      enter-from-class="opacity-0 backdrop-blur-0"
-      enter-to-class="opacity-100 backdrop-blur-2xl"
-      leave-active-class="transition-all duration-300 ease-in"
-      leave-from-class="opacity-100 backdrop-blur-2xl"
-      leave-to-class="opacity-0 backdrop-blur-0"
-    >
-      <div 
-        v-if="mobileMenuOpen"
-        class="fixed inset-0 bg-black/95 z-[150] md:hidden flex flex-col items-center justify-center p-6"
+    <!-- Mobile Menu Overlay - Teleported to body for absolute control -->
+    <Teleport to="body">
+      <transition 
+        enter-active-class="transition-opacity duration-500 ease-out"
+        enter-from-class="opacity-0"
+        enter-to-class="opacity-100"
+        leave-active-class="transition-opacity duration-300 ease-in"
+        leave-from-class="opacity-100"
+        leave-to-class="opacity-0"
       >
-        <!-- Close Button -->
-        <button 
-          @click="closeMenu" 
-          class="absolute top-6 right-6 w-12 h-12 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-white hover:bg-red-500/10 hover:border-red-500/50 transition-all"
+        <div 
+          v-if="mobileMenuOpen"
+          class="fixed inset-0 bg-[#070708] z-[9999] flex flex-col items-center justify-center p-6 overflow-hidden md:hidden"
         >
-          <i class="ph ph-x text-2xl"></i>
-        </button>
+          <!-- Background Decoration (Subtle) -->
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-[radial-gradient(circle_at_center,rgba(230,25,25,0.05)_0%,transparent_70%)] pointer-events-none"></div>
 
-        <!-- Centered Navigation -->
-        <nav class="flex flex-col items-center gap-10">
-          <a href="#perfil" @click="closeMenu" class="group flex flex-col items-center">
-            <span class="text-red-500 font-mono text-xs mb-2 tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all uppercase">Explorar</span>
-            <span class="text-4xl sm:text-5xl font-['Outfit'] font-black text-white hover:text-red-500 transition-colors uppercase tracking-tight">Perfil</span>
-          </a>
-          <a href="#experiencia" @click="closeMenu" class="group flex flex-col items-center">
-            <span class="text-red-500 font-mono text-xs mb-2 tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all uppercase">Trayectoria</span>
-            <span class="text-4xl sm:text-5xl font-['Outfit'] font-black text-white hover:text-red-500 transition-colors uppercase tracking-tight">Experiencia</span>
-          </a>
-          <a href="#habilidades" @click="closeMenu" class="group flex flex-col items-center">
-            <span class="text-red-500 font-mono text-xs mb-2 tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all uppercase">Arsenal</span>
-            <span class="text-4xl sm:text-5xl font-['Outfit'] font-black text-white hover:text-red-500 transition-colors uppercase tracking-tight">Habilidades</span>
-          </a>
-          <a href="#contacto" @click="closeMenu" class="group flex flex-col items-center">
-            <span class="text-red-500 font-mono text-xs mb-2 tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all uppercase">Contacto</span>
-            <span class="text-4xl sm:text-5xl font-['Outfit'] font-black text-white hover:text-red-500 transition-colors uppercase tracking-tight">Contacto</span>
-          </a>
-        </nav>
+          <!-- Close Button -->
+          <button 
+            @click="closeMenu" 
+            class="absolute top-8 right-8 w-14 h-14 flex items-center justify-center rounded-full bg-white/5 border border-white/10 text-white hover:bg-red-500/10 hover:border-red-500/50 transition-all active:scale-90"
+          >
+            <i class="ph ph-x text-3xl"></i>
+          </button>
 
-        <!-- Social Footer -->
-        <div class="absolute bottom-12 flex gap-8">
-          <a href="https://linkedin.com/in/luisalbertojm/" target="_blank" class="text-white/40 hover:text-white transition-colors text-2xl"><i class="ph ph-linkedin-logo"></i></a>
-          <a href="https://github.com/ShiroProjects" target="_blank" class="text-white/40 hover:text-white transition-colors text-2xl"><i class="ph ph-github-logo"></i></a>
-          <a href="mailto:srshipropro@gmail.com" class="text-white/40 hover:text-white transition-colors text-2xl"><i class="ph ph-envelope-simple"></i></a>
+          <!-- Navigation Links -->
+          <nav class="flex flex-col items-center gap-12 relative z-10">
+            <a 
+              v-for="(link, i) in [
+                { id: '#perfil', label: 'Perfil', sub: '01. Perfil Profesional' },
+                { id: '#experiencia', label: 'Experiencia', sub: '02. Trayectoria Laboral' },
+                { id: '#habilidades', label: 'Habilidades', sub: '03. Arsenal Técnico' },
+                { id: '#contacto', label: 'Contacto', sub: '04. Disponibilidad' }
+              ]" 
+              :key="link.id"
+              :href="link.id" 
+              @click="closeMenu" 
+              class="group flex flex-col items-center"
+            >
+              <span class="text-xs font-mono text-red-500/60 mb-2 tracking-[0.4em] uppercase opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                {{ link.sub }}
+              </span>
+              <span class="text-5xl sm:text-6xl font-['Outfit'] font-black text-white group-hover:text-red-500 transition-all duration-300 uppercase tracking-tighter">
+                {{ link.label }}
+              </span>
+            </a>
+          </nav>
+
+          <!-- Professional Footer -->
+          <div class="absolute bottom-16 flex flex-col items-center gap-8 w-full px-8">
+            <div class="w-12 h-[1px] bg-red-500/30"></div>
+            <div class="flex gap-10">
+              <a href="https://linkedin.com/in/luisalbertojm/" target="_blank" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-linkedin-logo"></i></a>
+              <a href="https://github.com/ShiroProjects" target="_blank" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-github-logo"></i></a>
+              <a href="mailto:srshipropro@gmail.com" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-envelope-simple"></i></a>
+            </div>
+          </div>
         </div>
-      </div>
-    </transition>
+      </transition>
+    </Teleport>
   </nav>
 </template>
 
