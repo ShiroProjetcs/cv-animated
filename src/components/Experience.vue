@@ -6,13 +6,13 @@ const currentYear = new Date().getFullYear()
 const experiences = [
   {
     date: 'Sept. 2018 – Actualidad',
-    title: 'Técnico Informático Specialist',
+    title: 'Técnico Informático Especialista',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
-      'Soporte IT integral y mantenimiento avanzado de sistemas de impresión digital de alta producción.',
-      'Gestión de infraestructura tecnológica para más de 40 años de experiencia del partner líder en el sector.',
-      'Especialista en diagnóstico y resolución en entornos corporativos de alta demanda.',
-      'Garantía de calidad y servicio técnico especializado en equipos multifunción (Olivetti, Konica Minolta).'
+      'Me encargo de que los equipos de nuestros clientes siempre estén a punto: reparación y mantenimiento de impresoras multifunción y sistemas de impresión de gran formato.',
+      'Especialista en "solucionar marrones": arreglo desde destructoras de papel hasta equipos informáticos complejos de marcas como Olivetti o Konica Minolta.',
+      'Soporte directo al cliente, tanto yendo a su oficina como de forma remota para que no pierdan ni un minuto de trabajo.',
+      'Diagnóstico y puesta en marcha de todo tipo de hardware y software para empresas.'
     ]
   },
   {
@@ -20,20 +20,19 @@ const experiences = [
     title: 'Técnico de Soporte IT',
     company: 'AlbertNovias',
     bullets: [
-      'Responsable de soporte técnico informático y atención al cliente.',
-      'Mantenimiento de sistemas locales y optimización operativa de flujos de trabajo.',
-      'Gestión de infraestructura digital para asegurar la continuidad del negocio.'
+      'Atención directa y resolución de cualquier problema informático que surgiera en el día a día.',
+      'Mantenimiento de los ordenadores y equipos de la tienda para que todo funcionara sin fallos.',
+      'Ayudar en cualquier necesidad digital para que el negocio pudiese centrarse en sus clientes.'
     ]
   },
   {
     date: 'Jun. 2017 – Ago. 2017',
-    title: 'Técnico en Sistemas (Prácticas)',
+    title: 'Informático (Prácticas)',
     company: 'Centre Estudis Nord',
     bullets: [
-      'Desarrollo y lanzamiento de sitio web corporativo optimizado para la academia de idiomas.',
-      'Reparación de hardware y gestión proactiva de sistemas de backups críticos.',
-      'Producción multimedia y edición de video para estrategias de redes sociales.',
-      'Mención especial por resolución de incidencias técnicas con carta de recomendación.'
+      'Creación de la página web de la academia para que fuesen más visibles en internet.',
+      'Puesta a punto y reparación de los equipos de las aulas.',
+      'Edición de vídeos para sus redes sociales y configuración de copias de seguridad para que sus datos estuviesen siempre a salvo.'
     ]
   },
   {
@@ -41,9 +40,9 @@ const experiences = [
     title: 'Desarrollador Web (Proyectos)',
     company: 'Independiente / Freelance',
     bullets: [
-      'Proyecto Bushiro: Liderazgo en branding y desarrollo integral de plataforma e-commerce deportiva.',
-      'Integración de IA: Automatización de flujos de trabajo mediante LLMs para optimización de procesos digitales.',
-      'Colaboración Estratégica: Soporte técnico y creativo para zbombilla.com y marcas retail.'
+      'Proyecto Bushiro: Diseño y desarrollo de marca y tienda online para el sector deportivo.',
+      'Integración de IA: Ayudo a optimizar el trabajo usando herramientas de Inteligencia Artificial.',
+      'Apoyo Digital: Colaboraciones en proyectos como zbombilla.com y otras marcas retail.'
     ]
   }
 ]

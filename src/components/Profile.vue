@@ -27,8 +27,8 @@ const age = computed(() => {
       </h3>
       
       <p class="text-lg md:text-[1.35rem] leading-relaxed text-[#94949b] font-light relative z-10">
-        <span class="text-white font-bold">Soporte IT Especializado & Integrador Digital</span> con casi una década de trayectoria equilibrando infraestructuras críticas y vanguardia tecnológica. 
-        Experto en diagnóstico y resolución de sistemas complejos, desarrollo de entornos <span class="text-white font-bold italic">E-Commerce</span> escalables y optimización de flujos de trabajo mediante <span class="text-[#e61919] font-bold">Inteligencia Artificial</span> generativa. 
+        Soy un apasionado de la tecnología con <span class="text-white font-bold">casi 10 años de experiencia</span> ayudando a empresas a que su informática no sea un problema. 
+        Me especializo en dar soluciones reales: desde que una impresora o destructora vuelva a funcionar, hasta montar tiendas online atractivas integrando las últimas herramientas de <span class="text-[#e61919] font-bold">Inteligencia Artificial</span> para que todo sea más fácil.
       </p>
     </div>
   </section>
