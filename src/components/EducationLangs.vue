@@ -37,10 +37,18 @@
           </div>
 
           <div class="glass-card hover-red p-6 md:p-8 flex items-center gap-5 md:gap-6 text-left">
+            <i class="ph ph-certificate text-4xl md:text-5xl text-[#e61919] shrink-0"></i>
+            <div>
+              <h4 class="text-base md:text-lg font-bold text-white mb-1">MPlus Certificate: IT Basics (Hardware & Software)</h4>
+              <p class="text-gray-400 text-xs md:text-sm">Konica Minolta Academy | 2023</p>
+            </div>
+          </div>
+
+          <div class="glass-card hover-red p-6 md:p-8 flex items-center gap-5 md:gap-6 text-left">
             <i class="ph ph-barbell text-4xl md:text-5xl text-[#e61919] shrink-0"></i>
             <div>
-              <h4 class="text-base md:text-lg font-bold text-white mb-1">Nutrición Deportiva & Personal Trainer</h4>
-              <p class="text-gray-400 text-xs md:text-sm">Formación Especializada</p>
+              <h4 class="text-base md:text-lg font-bold text-white mb-1">Máster en Personal Trainer & Nutrición Deportiva</h4>
+              <p class="text-gray-400 text-xs md:text-sm">Instituto Internacional de Ciencias Deportivas | 2023</p>
             </div>
           </div>
         </div>
