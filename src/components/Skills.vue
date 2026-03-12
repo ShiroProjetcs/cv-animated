@@ -6,7 +6,7 @@ const skillCategories = [
     tags: ['Shopify', 'WordPress / WooCommerce', 'Desarrollo Web Fullstack', 'Gestión CMS']
   },
   {
-    title: 'IT & Sistemas',
+    title: 'Sistemas & Infraestructura IT',
     icon: 'ph-cpu',
     tags: ['Soporte Técnico Especializado', 'Redes y Configuración', 'Diagnóstico Hardware', 'Mantenimiento Preventivo']
   },

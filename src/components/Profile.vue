@@ -27,8 +27,8 @@ const age = computed(() => {
       </h3>
       
       <p class="text-lg md:text-[1.35rem] leading-relaxed text-[#94949b] font-light relative z-10">
-        Técnico IT de <span class="text-white font-bold">{{ age }} años</span> con sólida experiencia en soporte avanzado, mantenimiento de equipos profesionales y desarrollo de proyectos digitales.
-        Combino una alta capacidad de resolución de problemas técnicos en entornos corporativos con la integración de herramientas de Inteligencia Artificial para optimizar procesos.
+        <span class="text-white font-bold">Soporte IT Especializado & Integrador Digital</span> con casi una década de trayectoria equilibrando infraestructuras críticas y vanguardia tecnológica. 
+        Experto en diagnóstico y resolución de sistemas complejos, desarrollo de entornos <span class="text-white font-bold italic">E-Commerce</span> escalables y optimización de flujos de trabajo mediante <span class="text-[#e61919] font-bold">Inteligencia Artificial</span> generativa. 
       </p>
     </div>
   </section>

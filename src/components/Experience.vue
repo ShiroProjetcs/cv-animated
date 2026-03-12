@@ -5,46 +5,46 @@ const currentYear = new Date().getFullYear()
 
 const experiences = [
   {
-    date: `2020 – Actualidad (Hoy ${currentYear})`,
+    date: `2020 – Actualidad`,
     title: 'Desarrollador Web y Estratega Digital',
-    company: 'Freelance & Colaboraciones',
+    company: 'Proyectos & E-commerce (Freelance)',
     bullets: [
-      'Proyecto Bushiro: Creación integral de marca y desarrollo de la plataforma e-commerce deportiva.',
-      'E-commerce Avanzado: Diseño, despliegue y gestión de tiendas online usando Shopify y WordPress (WooCommerce) para marcas de moda y servicios.',
-      'Integración IA: Uso de LLMs (ChatGPT, Claude) y herramientas generativas para automatización de workflows y creación de contenido dinámico.',
-      'Colaborador zbombilla.com: Apoyo en desarrollo digital y ejecución de proyectos de negocio online.'
+      'Liderazgo técnico en Bushiro: Desarrollo integral de marca y plataforma e-commerce deportiva de alto rendimiento.',
+      'Estratega E-commerce: Diseño y despliegue de soluciones escalables en Shopify y WooCommerce para diversas marcas del sector retail.',
+      'Integrador de IA: Implementación de flujos de trabajo automatizados mediante LLMs (ChatGPT/Claude) para optimización de contenidos y procesos de negocio.',
+      'Colaborador Estratégico en zbombilla.com: Ejecución técnica de modelos de negocio digitales y mantenimiento proactivo.'
     ]
   },
   {
-    date: `2018 – Actualidad (Hoy ${currentYear})`,
-    title: 'Informático y Técnico de Impresoras',
+    date: `2015 – Actualidad`,
+    title: 'Técnico Especialista en Sistemas e Impresión',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
-      'Responsable del soporte IT integral y mantenimiento técnico de equipos multifunción de alta producción.',
-      'Especialista en marcas líderes: Olivetti, Develop, Konica Minolta, Kyocera, HP, Ricoh, entre otras.',
-      'Soporte remoto y presencial, asegurando la operatividad crítica de sistemas en entornos empresariales.',
-      'Diagnóstico avanzado de hardware/software y gestión de infraestructura tecnológica.'
+      'Garantía de operatividad crítica: Soporte IT integral y mantenimiento avanzado de sistemas de impresión de alta producción.',
+      'Especialista Multimarca: Experiencia certificada en entornos de producción Olivetti, Konica Minolta, Kyocera y Ricoh.',
+      'Gestión de Infraestructura: Resolución de incidencias complejas tanto presenciales como remotas en entornos corporativos exigentes.',
+      'Diagnóstico de Alto Nivel: Análisis preventivo y correctivo de hardware/software para asegurar flujos de trabajo eficientes.'
     ]
   },
   {
-    date: 'Independiente',
-    title: 'Producción Técnica y Creatividad',
-    company: 'Home Studio & Eventos',
+    date: 'Trayectoria Multimedia',
+    title: 'Producción Técnica y Gestión Creativa',
+    company: 'Creativo Independiente',
     bullets: [
-      'Gestión integral del flujo de trabajo en grabación y edición de audio/video.',
-      'Organización técnica en eventos de cultura urbana y freestyle (Batallas de Gallos).',
-      'Creación de contenido digital multiplataforma centrado en comunidad y branding personal.'
+      'Post-producción profesional: Gestión completa del flujo de edición de audio y video para contenido digital multiplataforma.',
+      'Dirección Técnica de Eventos: Organización y control técnico en eventos de cultura urbana y freestyle.',
+      'Consultoría Multimedia: Asesoramiento en branding y optimización de activos digitales para proyectos independientes.'
     ]
   },
   {
     date: '2017',
-    title: 'Técnico Informático en Prácticas',
+    title: 'Técnico en Sistemas (Prácticas)',
     company: 'Centre Estudis Nord - Alcoy',
     bullets: [
-      'Creación de páginas web corporativas con WordPress y mantenimiento de sistemas.',
-      'Configuración de estrategias de backups y edición de vídeo para RRSS.'
+      'Despliegue de sitios web corporativos en WordPress y aseguramiento de políticas de backup robustas.',
+      'Apoyo en la gestión diaria de infraestructura informática y creación de activos multimedia para redes sociales.'
     ],
-    citation: '"Luis demostró una excepcional capacidad de aprendizaje y una actitud proactiva en la resolución de incidencias técnicas complejas."'
+    citation: '"Excepcional capacidad de resolución de incidencias técnicas complejas y actitud proactiva."'
   }
 ]
 </script>
