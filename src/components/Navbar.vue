@@ -55,20 +55,65 @@ onMounted(() => {
 
       <!-- Mobile Menu Overlay -->
       <div 
-        class="fixed inset-0 bg-black/95 backdrop-blur-2xl z-[100] md:hidden transition-all duration-500 flex flex-col items-center justify-center gap-8"
+        class="fixed inset-0 bg-[#0d0d0f]/98 backdrop-blur-3xl z-[100] md:hidden transition-all duration-500 ease-in-out flex flex-col items-center justify-center"
         :class="mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'"
       >
-        <a href="#perfil" @click="closeMenu" class="text-3xl font-bold uppercase tracking-widest text-white/60 hover:text-[#e61919]">Perfil</a>
-        <a href="#experiencia" @click="closeMenu" class="text-3xl font-bold uppercase tracking-widest text-white/60 hover:text-[#e61919]">Experiencia</a>
-        <a href="#habilidades" @click="closeMenu" class="text-3xl font-bold uppercase tracking-widest text-white/60 hover:text-[#e61919]">Habilidades</a>
-        <a href="#contacto" @click="closeMenu" class="text-3xl font-bold uppercase tracking-widest text-white/60 hover:text-[#e61919]">Contacto</a>
-        <a href="mailto:srshipropro@gmail.com" class="mt-4 px-8 py-3 bg-[#e61919] text-white rounded-full font-bold">HOLA@LUIS.A</a>
+        <div class="flex flex-col items-center gap-8" :class="{ 'translate-y-0': mobileMenuOpen, 'translate-y-10': !mobileMenuOpen }">
+          <a 
+            href="#perfil" 
+            @click="closeMenu" 
+            class="mobile-nav-link"
+            :style="{ transitionDelay: '100ms' }"
+          >
+            <span class="text-[#e61919] mr-2 opacity-50 font-mono">01.</span> Perfil
+          </a>
+          <a 
+            href="#experiencia" 
+            @click="closeMenu" 
+            class="mobile-nav-link"
+            :style="{ transitionDelay: '200ms' }"
+          >
+            <span class="text-[#e61919] mr-2 opacity-50 font-mono">02.</span> Experiencia
+          </a>
+          <a 
+            href="#habilidades" 
+            @click="closeMenu" 
+            class="mobile-nav-link"
+            :style="{ transitionDelay: '300ms' }"
+          >
+            <span class="text-[#e61919] mr-2 opacity-50 font-mono">03.</span> Habilidades
+          </a>
+          <a 
+            href="#contacto" 
+            @click="closeMenu" 
+            class="mobile-nav-link"
+            :style="{ transitionDelay: '400ms' }"
+          >
+            <span class="text-[#e61919] mr-2 opacity-50 font-mono">04.</span> Contacto
+          </a>
+          
+          <div class="mt-8 flex flex-col items-center gap-6" :style="{ transitionDelay: '500ms' }">
+            <a href="mailto:srshipropro@gmail.com" class="px-8 py-3 bg-[#e61919] text-white rounded-full font-bold shadow-[0_10px_30px_rgba(230,25,25,0.3)] hover:scale-105 active:scale-95 transition-all">
+              HOLA@LUIS.A
+            </a>
+            <div class="flex gap-6 mt-4">
+              <a href="https://linkedin.com" target="_blank" class="text-white/40 text-2xl hover:text-white transition-colors"><i class="ph ph-linkedin-logo"></i></a>
+              <a href="https://github.com" target="_blank" class="text-white/40 text-2xl hover:text-white transition-colors"><i class="ph ph-github-logo"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
 </template>
 
 <style scoped>
+.mobile-nav-link {
+  @apply text-4xl font-['Outfit'] font-black uppercase tracking-tighter text-white/90 transition-all duration-500;
+}
+.mobile-nav-link:active {
+  @apply text-[#e61919] scale-110;
+}
 .nav-link {
   @apply text-[#94949b] text-[0.95rem] font-semibold uppercase tracking-widest relative transition-colors duration-300;
 }
