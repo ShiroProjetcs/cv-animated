@@ -24,7 +24,7 @@
             <i class="ph ph-student text-4xl md:text-5xl text-[#e61919] shrink-0"></i>
             <div>
               <h4 class="text-base md:text-lg font-bold text-white mb-1">Sistemas Microinformáticos y Redes (GM)</h4>
-              <p class="text-gray-400 text-xs md:text-sm">CIP FP Batoi, Alcoy</p>
+              <p class="text-gray-400 text-xs md:text-sm">CIP FP Batoi, Alcoy | 2016 – 2018</p>
             </div>
           </div>
 
@@ -32,7 +32,7 @@
             <i class="ph ph-books text-4xl md:text-5xl text-[#e61919] shrink-0"></i>
             <div>
               <h4 class="text-base md:text-lg font-bold text-white mb-1">Educación Secundaria Obligatoria</h4>
-              <p class="text-gray-400 text-xs md:text-sm">Colegio José Arnauda</p>
+              <p class="text-gray-400 text-xs md:text-sm">Colegio José Arnauda | 1998 – 2016</p>
             </div>
           </div>
 

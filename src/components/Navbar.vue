@@ -106,7 +106,7 @@ onMounted(() => {
             <div class="w-12 h-[1px] bg-red-500/30"></div>
             <div class="flex gap-10">
               <a href="https://linkedin.com/in/luisalbertojm/" target="_blank" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-linkedin-logo"></i></a>
-              <a href="https://github.com/ShiroProjects" target="_blank" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-github-logo"></i></a>
+              <a href="https://github.com/ShiroProjetcs" target="_blank" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-github-logo"></i></a>
               <a href="mailto:srshipropro@gmail.com" class="text-white/30 hover:text-red-500 transition-all text-3xl"><i class="ph ph-envelope-simple"></i></a>
             </div>
           </div>

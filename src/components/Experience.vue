@@ -5,46 +5,46 @@ const currentYear = new Date().getFullYear()
 
 const experiences = [
   {
-    date: `2020 – Actualidad`,
-    title: 'Desarrollador Web y Estratega Digital',
-    company: 'Proyectos & E-commerce (Freelance)',
-    bullets: [
-      'Liderazgo técnico en Bushiro: Desarrollo integral de marca y plataforma e-commerce deportiva de alto rendimiento.',
-      'Estratega E-commerce: Diseño y despliegue de soluciones escalables en Shopify y WooCommerce para diversas marcas del sector retail.',
-      'Integrador de IA: Implementación de flujos de trabajo automatizados mediante LLMs (ChatGPT/Claude) para optimización de contenidos y procesos de negocio.',
-      'Colaborador Estratégico en zbombilla.com: Ejecución técnica de modelos de negocio digitales y mantenimiento proactivo.'
-    ]
-  },
-  {
-    date: `2015 – Actualidad`,
-    title: 'Técnico Especialista en Sistemas e Impresión',
+    date: 'Sept. 2018 – Actualidad',
+    title: 'Técnico Informático Specialist',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
-      'Garantía de operatividad crítica: Soporte IT integral y mantenimiento avanzado de sistemas de impresión de alta producción.',
-      'Especialista Multimarca: Experiencia certificada en entornos de producción Olivetti, Konica Minolta, Kyocera y Ricoh.',
-      'Gestión de Infraestructura: Resolución de incidencias complejas tanto presenciales como remotas en entornos corporativos exigentes.',
-      'Diagnóstico de Alto Nivel: Análisis preventivo y correctivo de hardware/software para asegurar flujos de trabajo eficientes.'
+      'Soporte IT integral y mantenimiento avanzado de sistemas de impresión digital de alta producción.',
+      'Gestión de infraestructura tecnológica para más de 40 años de experiencia del partner líder en el sector.',
+      'Especialista en diagnóstico y resolución en entornos corporativos de alta demanda.',
+      'Garantía de calidad y servicio técnico especializado en equipos multifunción (Olivetti, Konica Minolta).'
     ]
   },
   {
-    date: 'Trayectoria Multimedia',
-    title: 'Producción Técnica y Gestión Creativa',
-    company: 'Creativo Independiente',
+    date: 'Sept. 2017 – Sept. 2018',
+    title: 'Técnico de Soporte IT',
+    company: 'AlbertNovias',
     bullets: [
-      'Post-producción profesional: Gestión completa del flujo de edición de audio y video para contenido digital multiplataforma.',
-      'Dirección Técnica de Eventos: Organización y control técnico en eventos de cultura urbana y freestyle.',
-      'Consultoría Multimedia: Asesoramiento en branding y optimización de activos digitales para proyectos independientes.'
+      'Responsable de soporte técnico informático y atención al cliente.',
+      'Mantenimiento de sistemas locales y optimización operativa de flujos de trabajo.',
+      'Gestión de infraestructura digital para asegurar la continuidad del negocio.'
     ]
   },
   {
-    date: '2017',
+    date: 'Jun. 2017 – Ago. 2017',
     title: 'Técnico en Sistemas (Prácticas)',
-    company: 'Centre Estudis Nord - Alcoy',
+    company: 'Centre Estudis Nord',
     bullets: [
-      'Despliegue de sitios web corporativos en WordPress y aseguramiento de políticas de backup robustas.',
-      'Apoyo en la gestión diaria de infraestructura informática y creación de activos multimedia para redes sociales.'
-    ],
-    citation: '"Excepcional capacidad de resolución de incidencias técnicas complejas y actitud proactiva."'
+      'Desarrollo y lanzamiento de sitio web corporativo optimizado para la academia de idiomas.',
+      'Reparación de hardware y gestión proactiva de sistemas de backups críticos.',
+      'Producción multimedia y edición de video para estrategias de redes sociales.',
+      'Mención especial por resolución de incidencias técnicas con carta de recomendación.'
+    ]
+  },
+  {
+    date: '2020 – Actualidad',
+    title: 'Desarrollador Web (Proyectos)',
+    company: 'Independiente / Freelance',
+    bullets: [
+      'Proyecto Bushiro: Liderazgo en branding y desarrollo integral de plataforma e-commerce deportiva.',
+      'Integración de IA: Automatización de flujos de trabajo mediante LLMs para optimización de procesos digitales.',
+      'Colaboración Estratégica: Soporte técnico y creativo para zbombilla.com y marcas retail.'
+    ]
   }
 ]
 </script>
