@@ -5,14 +5,35 @@ const currentYear = new Date().getFullYear()
 
 const experiences = [
   {
+    date: '2023 – Actualidad',
+    title: 'Asesoramiento Físico & Nutricional (Freelance)',
+    company: 'Bienestar y Rendimiento',
+    bullets: [
+      'Ayudo a personas a alcanzar sus objetivos de salud mediante planes de entrenamiento personalizados.',
+      'Elaboración y seguimiento de dietas adaptadas a las necesidades reales de cada persona.',
+      'Uso de mis conocimientos técnicos para llevar un control detallado del progreso de cada asesorado.',
+      'Compaginando mi pasión por el deporte con mi capacidad de organización y motivación.'
+    ]
+  },
+  {
+    date: '2020 – Actualidad',
+    title: 'Desarrollador Web (Proyectos & Freelance)',
+    company: 'Emprendimiento Personal',
+    bullets: [
+      'Proyecto Bushiro: Diseño y desarrollo de marca y tienda online para el sector deportivo.',
+      'Integración de IA: Ayudo a optimizar el trabajo y los resultados usando herramientas de Inteligencia Artificial.',
+      'Apoyo Digital: Colaboraciones en proyectos como zbombilla.com y otras marcas retail, trabajando por mi cuenta.'
+    ]
+  },
+  {
     date: 'Sept. 2018 – Actualidad',
     title: 'Técnico Informático Especialista',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
-      'Me encargo de que los equipos de nuestros clientes siempre estén a punto: reparación y mantenimiento de impresoras multifunción y sistemas de impresión de gran formato.',
-      'Especialista en "solucionar marrones": arreglo desde destructoras de papel hasta equipos informáticos complejos de marcas como Olivetti o Konica Minolta.',
-      'Soporte directo al cliente, tanto yendo a su oficina como de forma remota para que no pierdan ni un minuto de trabajo.',
-      'Diagnóstico y puesta en marcha de todo tipo de hardware y software para empresas.'
+      'Me encargo de que los equipos de nuestros clientes siempre estén a punto: reparación y mantenimiento de impresoras multifunción y sistemas de gran formato.',
+      'Especialista en "solucionar marrones": arreglo desde destructoras de papel hasta equipos informáticos complejos (Olivetti, Konica Minolta).',
+      'Soporte directo al cliente, tanto presencial como remoto, para asegurar que su negocio nunca se detenga.',
+      'Diagnóstico y puesta en marcha de hardware y software para empresas.'
     ]
   },
   {
@@ -20,9 +41,9 @@ const experiences = [
     title: 'Técnico de Soporte IT',
     company: 'AlbertNovias',
     bullets: [
-      'Atención directa y resolución de cualquier problema informático que surgiera en el día a día.',
-      'Mantenimiento de los ordenadores y equipos de la tienda para que todo funcionara sin fallos.',
-      'Ayudar en cualquier necesidad digital para que el negocio pudiese centrarse en sus clientes.'
+      'Atención directa y resolución de cualquier tipo de problema informático en el día a día.',
+      'Mantenimiento de los ordenadores y equipos para que todo funcionase sin fallos.',
+      'Soporte digital integral para que el equipo pudiese centrarse en sus ventas y clientes.'
     ]
   },
   {
@@ -30,19 +51,9 @@ const experiences = [
     title: 'Informático (Prácticas)',
     company: 'Centre Estudis Nord',
     bullets: [
-      'Creación de la página web de la academia para que fuesen más visibles en internet.',
-      'Puesta a punto y reparación de los equipos de las aulas.',
-      'Edición de vídeos para sus redes sociales y configuración de copias de seguridad para que sus datos estuviesen siempre a salvo.'
-    ]
-  },
-  {
-    date: '2020 – Actualidad',
-    title: 'Desarrollador Web (Proyectos)',
-    company: 'Independiente / Freelance',
-    bullets: [
-      'Proyecto Bushiro: Diseño y desarrollo de marca y tienda online para el sector deportivo.',
-      'Integración de IA: Ayudo a optimizar el trabajo usando herramientas de Inteligencia Artificial.',
-      'Apoyo Digital: Colaboraciones en proyectos como zbombilla.com y otras marcas retail.'
+      'Creación de la web de la academia para mejorar su presencia digital.',
+      'Puesta a punto y reparación de los equipos informáticos de las aulas.',
+      'Edición de vídeos para redes sociales y gestión de sistemas de copias de seguridad.'
     ]
   }
 ]
