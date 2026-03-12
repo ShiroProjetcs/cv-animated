@@ -3,54 +3,54 @@
 </script>
 
 <template>
-  <header class="min-h-screen flex items-center justify-center pt-24 relative z-10 px-6">
-    <div class="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-16 w-full">
+  <header class="min-h-screen flex items-center justify-center pt-24 lg:pt-32 relative z-10 px-6 overflow-hidden">
+    <div class="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16 w-full">
       
       <!-- Text Content -->
       <div class="flex-1 text-center lg:text-left">
-        <p class="inline-flex items-center gap-2 text-[#e61919] font-bold text-sm tracking-[0.2em] uppercase mb-4 bg-red-500/10 px-4 py-1.5 rounded-full border border-red-500/20">
+        <p class="inline-flex items-center gap-2 text-[#e61919] font-bold text-xs md:text-sm tracking-[0.2em] uppercase mb-4 bg-red-500/10 px-4 py-1.5 rounded-full border border-red-500/20">
           <i class="ph-fill ph-lightning"></i> Disponible para nuevos retos
         </p>
         
-        <h1 class="text-6xl md:text-7xl lg:text-[5rem] font-['Outfit'] font-black leading-[1.1] tracking-tight mb-2">
-          Luis Alberto <br />Jiménez
+        <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-[5rem] font-['Outfit'] font-black leading-[1.1] tracking-tight mb-2">
+          Luis Alberto <br class="hidden sm:block" />Jiménez
         </h1>
         
-        <h2 class="text-3xl md:text-4xl text-[#94949b] font-['Outfit'] font-normal mb-6">
+        <h2 class="text-xl sm:text-2xl md:text-4xl text-[#94949b] font-['Outfit'] font-normal mb-6">
           Técnico IT & 
           <span class="bg-gradient-to-br from-[#e61919] to-[#a30000] bg-clip-text text-transparent">Productor Digital</span>
         </h2>
         
-        <p class="text-[#94949b] text-lg max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
+        <p class="text-[#94949b] text-base md:text-lg max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
           Resolución técnica avanzada y producción creativa. Orientado a ofrecer soluciones ágiles y robustas en entornos dinámicos y de alta presión. De los sistemas a la pantalla.
         </p>
 
         <!-- Chips -->
-        <div class="flex flex-wrap justify-center lg:justify-start gap-3">
-          <a href="mailto:srshipropro@gmail.com" class="chip">
-            <i class="ph ph-envelope-simple text-xl text-[#e61919]"></i> srshipropro@gmail.com
+        <div class="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3">
+          <a href="mailto:srshipropro@gmail.com" class="chip text-xs md:text-sm">
+            <i class="ph ph-envelope-simple text-lg md:text-xl text-[#e61919]"></i> <span class="hidden sm:inline">srshipropro@gmail.com</span><span class="sm:hidden">Email</span>
           </a>
-          <a href="tel:+34639401682" class="chip">
-            <i class="ph ph-phone text-xl text-[#e61919]"></i> +34 639 40 16 82
+          <a href="tel:+34639401682" class="chip text-xs md:text-sm">
+            <i class="ph ph-phone text-lg md:text-xl text-[#e61919]"></i> <span class="hidden sm:inline">+34 639 40 16 82</span><span class="sm:hidden">Llamar</span>
           </a>
-          <span class="chip">
-            <i class="ph ph-map-pin text-xl text-[#e61919]"></i> Alcoy, España
+          <span class="chip text-xs md:text-sm">
+            <i class="ph ph-map-pin text-lg md:text-xl text-[#e61919]"></i> Alcoy
           </span>
-          <a href="https://www.linkedin.com/in/luisalbertojm/" target="_blank" class="chip">
-            <i class="ph ph-linkedin-logo text-xl text-[#e61919]"></i> LinkedIn
+          <a href="https://www.linkedin.com/in/luisalbertojm/" target="_blank" class="chip text-xs md:text-sm">
+            <i class="ph ph-linkedin-logo text-lg md:text-xl text-[#e61919]"></i>
           </a>
-          <a href="https://github.com/ShiroProjects" target="_blank" class="chip">
-            <i class="ph ph-github-logo text-xl text-[#e61919]"></i> GitHub
+          <a href="https://github.com/ShiroProjects" target="_blank" class="chip text-xs md:text-sm">
+            <i class="ph ph-github-logo text-lg md:text-xl text-[#e61919]"></i>
           </a>
-          <a href="#contacto" class="chip-primary">
-            <i class="ph ph-paper-plane-tilt text-xl text-white"></i> Contactar
+          <a href="#contacto" class="chip-primary text-xs md:text-sm">
+            <i class="ph ph-paper-plane-tilt text-lg md:text-xl text-white"></i> Contactar
           </a>
         </div>
       </div>
 
       <!-- Image & Badges -->
-      <div class="relative w-[340px] h-[440px] perspective-1000 group mx-auto">
-        <div class="absolute inset-0 rounded-[24px] p-[2px] bg-gradient-to-br from-red-500/60 to-transparent shadow-2xl overflow-hidden transform -rotate-y-3 rotate-x-1 transition-transform duration-700 ease-out group-hover:rotate-y-0 group-hover:rotate-x-0">
+      <div class="relative w-full max-w-[280px] sm:max-w-[340px] aspect-[3/4] perspective-1000 group mx-auto lg:mx-0">
+        <div class="absolute inset-0 rounded-[24px] p-[2px] bg-gradient-to-br from-red-500/60 to-transparent shadow-2xl overflow-hidden transform lg:-rotate-y-3 lg:rotate-x-1 transition-transform duration-700 ease-out group-hover:rotate-y-0 group-hover:rotate-x-0">
           <img 
             src="/avatar.jpg" 
             alt="Luis Alberto" 
@@ -60,15 +60,15 @@
           <div class="absolute -top-full left-0 w-full h-24 bg-gradient-to-b from-transparent via-red-500/30 to-transparent animate-scan-line"></div>
         </div>
         
-        <!-- Badges -->
-        <div class="absolute top-[8%] -left-[15%] floating-badge animation-delay-0">
-          <i class="ph ph-hard-drives text-[#e61919] text-xl"></i> IT Support
+        <!-- Badges - Adjust positions for responsive -->
+        <div class="absolute top-[8%] -left-[10%] sm:-left-[15%] floating-badge animation-delay-0 text-[10px] sm:text-xs">
+          <i class="ph ph-hard-drives text-[#e61919] text-sm sm:text-xl"></i> IT Support
         </div>
-        <div class="absolute bottom-[25%] -right-[20%] floating-badge animation-delay-2000">
-          <i class="ph ph-code text-[#e61919] text-xl"></i> Fullstack Web
+        <div class="absolute bottom-[25%] -right-[15%] sm:-right-[20%] floating-badge animation-delay-2000 text-[10px] sm:text-xs">
+          <i class="ph ph-code text-[#e61919] text-sm sm:text-xl"></i> Fullstack
         </div>
-        <div class="absolute bottom-[2%] -left-[5%] floating-badge animation-delay-4000">
-          <i class="ph ph-sparkle text-[#e61919] text-xl"></i> IA Integrator
+        <div class="absolute bottom-[2%] -left-[5%] floating-badge animation-delay-4000 text-[10px] sm:text-xs">
+          <i class="ph ph-sparkle text-[#e61919] text-sm sm:text-xl"></i> IA Integrator
         </div>
       </div>
 
@@ -80,13 +80,9 @@
 .perspective-1000 {
   perspective: 1000px;
 }
-.rotate-y-3 {
-  transform: rotateY(-3deg) rotateX(1deg);
-}
-
 
 .floating-badge {
-  @apply bg-black/85 backdrop-blur-xl border border-red-500/30 px-4 py-3 rounded-xl font-bold text-xs flex items-center gap-2 shadow-[0_10px_30px_rgba(0,0,0,0.6)] uppercase tracking-wide text-white;
+  @apply bg-black/85 backdrop-blur-xl border border-red-500/30 px-3 py-2 sm:px-4 sm:py-3 rounded-xl font-bold flex items-center gap-2 shadow-[0_10px_30px_rgba(0,0,0,0.6)] uppercase tracking-wide text-white whitespace-nowrap z-20;
   animation: float 6s ease-in-out infinite;
 }
 
