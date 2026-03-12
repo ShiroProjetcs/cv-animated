@@ -39,7 +39,7 @@
           <a href="https://www.linkedin.com/in/luisalbertojm/" target="_blank" class="chip text-xs md:text-sm">
             <i class="ph ph-linkedin-logo text-lg md:text-xl text-[#e61919]"></i>
           </a>
-          <a href="https://github.com/ShiroProjects" target="_blank" class="chip text-xs md:text-sm">
+          <a href="https://github.com/ShiroProjetcs" target="_blank" class="chip text-xs md:text-sm">
             <i class="ph ph-github-logo text-lg md:text-xl text-[#e61919]"></i>
           </a>
           <a href="#contacto" class="chip-primary text-xs md:text-sm">
