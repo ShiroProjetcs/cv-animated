@@ -3,9 +3,29 @@ import { computed } from 'vue'
 
 const currentYear = new Date().getFullYear()
 
+const getDuration = (startYear, startMonth = 0) => {
+  const startDate = new Date(startYear, startMonth)
+  const today = new Date()
+  
+  let years = today.getFullYear() - startDate.getFullYear()
+  let months = today.getMonth() - startDate.getMonth()
+  
+  if (months < 0) {
+    years--
+    months += 12
+  }
+  
+  let text = ''
+  if (years > 0) text += `${years} ${years === 1 ? 'año' : 'años'}`
+  if (months > 0) text += `${years > 0 ? ' y ' : ''}${months} ${months === 1 ? 'mes' : 'meses'}`
+  
+  return text || 'Reciente'
+}
+
 const experiences = [
   {
     date: '2023 – Actualidad',
+    duration: getDuration(2023, 0),
     title: 'Asesoramiento Físico & Nutricional (Freelance)',
     company: 'Bienestar y Rendimiento',
     bullets: [
@@ -17,6 +37,7 @@ const experiences = [
   },
   {
     date: '2020 – Actualidad',
+    duration: getDuration(2020, 0),
     title: 'Desarrollador Web (Proyectos & Freelance)',
     company: 'Emprendimiento Personal',
     bullets: [
@@ -27,6 +48,7 @@ const experiences = [
   },
   {
     date: 'Sept. 2018 – Actualidad',
+    duration: getDuration(2018, 8), // Septiembre es mes 8 (0-indexed)
     title: 'Técnico Informático Especialista',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
@@ -38,6 +60,7 @@ const experiences = [
   },
   {
     date: 'Sept. 2017 – Sept. 2018',
+    duration: '1 año',
     title: 'Técnico de Soporte IT',
     company: 'AlbertNovias',
     bullets: [
@@ -48,6 +71,7 @@ const experiences = [
   },
   {
     date: 'Jun. 2017 – Ago. 2017',
+    duration: '3 meses',
     title: 'Informático (Prácticas)',
     company: 'Centre Estudis Nord',
     bullets: [
@@ -73,9 +97,14 @@ const experiences = [
         
         <!-- Content Card -->
         <div class="glass-card hover-red p-6 md:p-8">
-          <span class="inline-block text-[#e61919] font-bold text-xs md:text-sm tracking-widest uppercase mb-4">
-            {{ exp.date }}
-          </span>
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-4">
+            <span class="text-[#e61919] font-bold text-xs md:text-sm tracking-widest uppercase">
+              {{ exp.date }}
+            </span>
+            <span v-if="exp.duration" class="bg-red-500/10 text-red-500 text-[10px] md:text-xs font-mono px-3 py-1 rounded-full border border-red-500/20">
+              {{ exp.duration }}
+            </span>
+          </div>
           <h4 class="text-xl md:text-2xl font-bold text-white mb-1">
             {{ exp.title }}
           </h4>

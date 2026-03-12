@@ -11,6 +11,16 @@ const age = computed(() => {
   }
   return age
 })
+
+const experienceText = computed(() => {
+  const startYear = 2016 // Inicio de formación y primeros pasos
+  const today = new Date()
+  const years = today.getFullYear() - startYear
+  
+  if (years >= 9) return 'casi una década'
+  if (years >= 10) return 'más de 10 años'
+  return `${years} años`
+})
 </script>
 
 <template>
@@ -27,7 +37,7 @@ const age = computed(() => {
       </h3>
       
       <p class="text-lg md:text-[1.35rem] leading-relaxed text-[#94949b] font-light relative z-10">
-        Soy un apasionado de la tecnología con <span class="text-white font-bold">casi 10 años de experiencia</span> ayudando a empresas a que su informática no sea un problema. 
+        Soy un apasionado de la tecnología con <span class="text-white font-bold">{{ experienceText }} de experiencia</span> ayudando a empresas a que su informática no sea un problema. 
         Me especializo en dar soluciones reales: desde que una impresora o destructora vuelva a funcionar, hasta montar tiendas online atractivas integrando las últimas herramientas de <span class="text-[#e61919] font-bold">Inteligencia Artificial</span> para que todo sea más fácil.
       </p>
     </div>
