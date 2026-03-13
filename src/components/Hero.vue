@@ -68,7 +68,7 @@
           <i class="ph ph-globe text-[#e61919] text-sm sm:text-xl"></i> Web Solutions
         </div>
         <div class="absolute bottom-[2%] -left-[5%] floating-badge animation-delay-4000 text-[10px] sm:text-xs">
-          <i class="ph ph-cpu text-[#e61919] text-sm sm:text-xl"></i> IT Support
+          <i class="ph ph-cpu text-[#e61919] text-sm sm:text-xl"></i> Digital Integrator
         </div>
       </div>
 

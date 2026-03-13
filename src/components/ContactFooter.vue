@@ -37,7 +37,7 @@
       
       <p class="text-center text-gray-500 font-medium leading-relaxed text-sm md:text-base">
         © 2026 Luis Alberto Jiménez Mohedano. <br />
-        <span class="text-[10px] md:text-xs opacity-50 block mt-1">Ingeniería, Creatividad y Resolución.</span>
+        <span class="text-[10px] md:text-xs opacity-50 block mt-1">Tecnología, Creatividad y Resolución.</span>
       </p>
     </div>
   </footer>
