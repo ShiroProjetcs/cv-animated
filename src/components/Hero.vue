@@ -65,10 +65,10 @@
           <i class="ph ph-hard-drives text-[#e61919] text-sm sm:text-xl"></i> IT Support
         </div>
         <div class="absolute bottom-[25%] -right-[15%] sm:-right-[20%] floating-badge animation-delay-2000 text-[10px] sm:text-xs">
-          <i class="ph ph-code text-[#e61919] text-sm sm:text-xl"></i> Fullstack
+          <i class="ph ph-globe text-[#e61919] text-sm sm:text-xl"></i> Web Solutions
         </div>
         <div class="absolute bottom-[2%] -left-[5%] floating-badge animation-delay-4000 text-[10px] sm:text-xs">
-          <i class="ph ph-sparkle text-[#e61919] text-sm sm:text-xl"></i> IA Integrator
+          <i class="ph ph-cpu text-[#e61919] text-sm sm:text-xl"></i> IT Support
         </div>
       </div>
 

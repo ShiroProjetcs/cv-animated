@@ -1,19 +1,19 @@
 <script setup>
 const skillCategories = [
   {
-    title: 'Producción Digital',
+    title: 'Soluciones Web',
     icon: 'ph-terminal-window',
-    tags: ['Creación de Tiendas Online', 'Integración de Pasarelas', 'Despliegue en Vercel', 'Desarrollo Asistido por IA']
+    tags: ['Creación de Tiendas Online', 'Estructura Web', 'Despliegue y Hosting', 'Soluciones con IA']
   },
   {
     title: 'Sistemas & Soporte IT',
     icon: 'ph-cpu',
-    tags: ['Mantenimiento Mutifunción', 'Diagnóstico Hardware', 'Soporte Remoto/Presencial', 'Redes e Infraestructura']
+    tags: ['Mantenimiento Mutifunción', 'Diagnóstico Hardware', 'Soporte Remoto/Presencial', 'Redes e Informática']
   },
   {
-    title: 'IA & Automatización',
+    title: 'IA & Herramientas',
     icon: 'ph-sparkle',
-    tags: ['Prompt Engineering', 'Automatización de Flujos', 'Producción Ágil de Contenido', 'Optimización Procesos IA']
+    tags: ['Uso de LLMs', 'Automatización de Tareas', 'Contenido con IA', 'Mejora de Procesos']
   }
 ]
 
