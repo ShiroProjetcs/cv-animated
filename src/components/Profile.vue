@@ -37,8 +37,8 @@ const experienceText = computed(() => {
       </h3>
       
       <p class="text-lg md:text-[1.35rem] leading-relaxed text-[#94949b] font-light relative z-10">
-        Soy un apasionado de la tecnología con <span class="text-white font-bold">{{ experienceText }} de experiencia</span> ayudando a empresas a que su informática no sea un problema. 
-        Me especializo en dar soluciones reales: desde que una impresora o destructora vuelva a funcionar, hasta montar tiendas online atractivas integrando las últimas herramientas de <span class="text-[#e61919] font-bold">Inteligencia Artificial</span> para que todo sea más fácil.
+        Soy un apasionado de la tecnología con <span class="text-white font-bold">{{ experienceText }} de experiencia</span> ayudando a que lo digital funcione. 
+        No solo "pico código", soy un <span class="text-white font-bold">Productor Digital</span> que utiliza IA y herramientas de última generación para construir proyectos reales de forma ágil. Mi valor está en la <span class="text-[#e61919] font-bold">resolución</span>: hago que las cosas pasen, rápido y bien.
       </p>
     </div>
   </section>

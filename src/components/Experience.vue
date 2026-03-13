@@ -38,12 +38,13 @@ const experiences = [
   {
     date: '2020 – Actualidad',
     duration: getDuration(2020, 0),
-    title: 'Desarrollador Web (Proyectos & Freelance)',
+    title: 'Productor Digital & Integrador (Proyectos)',
     company: 'Emprendimiento Personal',
     bullets: [
-      'Proyecto Bushiro: Diseño y desarrollo de marca y tienda online para el sector deportivo.',
-      'Integración de IA: Ayudo a optimizar el trabajo y los resultados usando herramientas de Inteligencia Artificial.',
-      'Apoyo Digital: Colaboraciones en proyectos como zbombilla.com y otras marcas retail, trabajando por mi cuenta.'
+      'Producción Ágil: Desarrollo de marcas y sitios web utilizando herramientas asistidas por IA para acelerar el despliegue.',
+      'Resolución Tecnológica: Integración de ecosistemas digitales completos (web, redes, automatización) sin fricciones.',
+      'Enfoque en Resultados: Mi fuerte es llevar una idea al estado operativo en tiempos reducidos, optimizando cada proceso.',
+      'Colaboración Estratégica: Consultoría técnica para marcas que necesitan soluciones digitales funcionales hoy mismo.'
     ]
   },
   {

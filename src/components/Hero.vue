@@ -22,7 +22,7 @@
         </h2>
         
         <p class="text-[#94949b] text-base md:text-lg max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-          Resolución técnica avanzada y producción creativa. Orientado a ofrecer soluciones ágiles y robustas en entornos dinámicos y de alta presión. De los sistemas a la pantalla.
+          Especialista en producción rápida y resolución tecnológica. Utilizo herramientas de vanguardia e <span class="text-white font-bold">IA</span> para desplegar soluciones digitales en tiempo récord. De la idea al directo, sin bloqueos.
         </p>
 
         <!-- Chips -->
