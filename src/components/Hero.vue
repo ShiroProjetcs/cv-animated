@@ -9,7 +9,7 @@
       <!-- Text Content -->
       <div class="flex-1 text-center lg:text-left">
         <p class="inline-flex items-center gap-2 text-[#e61919] font-bold text-xs md:text-sm tracking-[0.2em] uppercase mb-4 bg-red-500/10 px-4 py-1.5 rounded-full border border-red-500/20">
-          <i class="ph-fill ph-lightning"></i> Disponible para nuevos retos
+          <i class="ph-fill ph-lightning"></i> Disponible para nuevas oportunidades laborales
         </p>
         
         <h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-[5rem] font-['Outfit'] font-black leading-[1.1] tracking-tight mb-2">

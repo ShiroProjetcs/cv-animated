@@ -48,14 +48,14 @@ const experiences = [
     ]
   },
   {
-    date: 'Sept. 2018 – Actualidad',
-    duration: getDuration(2018, 8), // Septiembre es mes 8 (0-indexed)
+    date: 'Sept. 2018 – Ago. 2026',
+    duration: '7 años y 11 meses',
     title: 'Técnico Informático Especialista',
     company: 'Ofimática 2000 S.L.U (Partner Olivetti)',
     bullets: [
-      'Me encargo de que los equipos de nuestros clientes siempre estén a punto: reparación y mantenimiento de impresoras multifunción y sistemas de gran formato.',
-      'Especialista en "solucionar marrones": arreglo desde destructoras de papel hasta equipos informáticos complejos (Olivetti, Konica Minolta).',
-      'Soporte directo al cliente, tanto presencial como remoto, para asegurar que su negocio nunca se detenga.',
+      'Reparación y mantenimiento de impresoras multifunción y sistemas de gran formato para clientes de la empresa.',
+      'Resolución de incidencias en destructoras de papel y equipos informáticos complejos (Olivetti, Konica Minolta).',
+      'Soporte directo al cliente, tanto presencial como remoto, para asegurar la continuidad de su negocio.',
       'Diagnóstico y puesta en marcha de hardware y software para empresas.'
     ]
   },

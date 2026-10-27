@@ -17,7 +17,7 @@
           <a href="tel:+34639401682" class="btn-secondary w-full sm:w-auto text-sm md:text-base">
             <i class="ph ph-phone text-xl text-[#e61919]"></i> Llamar Ahora
           </a>
-          <a href="/CV_LuisAlbertoJimenez.pdf" download class="btn-secondary w-full sm:w-auto text-sm md:text-base">
+          <a href="/CV_LuisAlbertoJimenez.pdf?v=20261027" download="CV_LuisAlbertoJimenez.pdf" class="btn-secondary w-full sm:w-auto text-sm md:text-base">
             <i class="ph ph-download-simple text-xl text-[#e61919]"></i> Descargar CV
           </a>
         </div>
